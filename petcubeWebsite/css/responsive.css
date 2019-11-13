@@ -1,0 +1,43 @@
+/* Desktop Viwe */
+@media (max-width: 640px){
+    .desktop-view {
+    display: none !important;
+    }
+   
+    .logo-img-box{
+        display: none
+    }
+
+    .header-sign-in{
+        display: none;
+        margin-right: 25px;
+    }
+
+    .navbar-nav{
+        margin: 0px !important;
+    }
+
+    .logo-img {
+        margin-right: 73px !important;
+    }
+   
+}
+
+
+
+/* Mobile Viwe */
+@media (min-width: 640px){
+    .mobile-view {
+    display: none !important;
+    }
+
+ .logo-img{
+        display: none;
+        margin-right: 200px;
+    }
+
+    .auth-link{
+        display: none !important;
+    }
+  
+}
