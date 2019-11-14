@@ -11,24 +11,7 @@ padding: 0px;
 }
 
 
-.col .top-image{
-    background-image: url("https://petcube.com/images/banners/september-perks-2019/thin-banner.jpg")
-}
 
-
-a.top-offer {
-    font-size: 12px !important;
-    text-decoration: none;
-    color: white;
-    font-weight: 900;
-    width: 20%;
-    margin: 30%;
-}
-
-.get-now{
-    color: black;
-    margin-left: 40px;
-}
 
 /* Navber Css start */
 
@@ -76,6 +59,86 @@ ul.navbar-nav li:hover{
     background-color: bisque;
     margin: 0px auto;   
 }
+
+
+
+
+/* content wraper */
+.jumbotron{
+ background-image: url("../images/petcubefullImage.jpg");
+ width: 96% !important;
+ margin: 0px auto;
+ height: 100vh;
+ border-radius: 0px;    
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ z-index: -1;
+ padding-top: 10px;
+
+}
+
+
+.col.inner-wraper-jumbotron {
+    height: 95vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+.row .inner-wraper-container{
+    margin-bottom: 10px !important;
+    display: flex !important;
+}
+
+
+.article{
+    width: 400px !important;
+    font-weight: 600;
+    margin-top: 50px;
+    float: right;
+}
+
+
+.article > h1 {
+    color: #F1F1F1 !important;
+}
+
+.text{
+    font-size: 20px !important;
+    color: #F1F1F1;
+}
+
+p.h8{
+    font-size: 24px !important;
+    font-weight: 600;
+    color: 000; 
+    
+}
+
+
+a.button {
+    background-color: rgb(224, 188, 6);
+    padding: 7px;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.button:hover {
+    background-color: rgb(240, 212, 76);
+}
+
+
 
 
 
