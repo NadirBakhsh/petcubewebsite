@@ -10,28 +10,25 @@ margin: 0px;
 padding: 0px;
 }
 
-.banner .banner-image {
-    position: relative;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-    vertical-align: top;
+
+.col .top-image{
+    background-image: url("https://petcube.com/images/banners/september-perks-2019/thin-banner.jpg")
 }
 
 
-a{
-font-family: "gotham", sans-serif;
-color: #f9aa16;
--webkit-transition: color 0.3s, opacity 0.3s, background-color 0.3s;
--moz-transition: color 0.3s, opacity 0.3s, background-color 0.3s;
-transition: color 0.3s, opacity 0.3s, background-color 0.3s;
-text-decoration: none;
+a.top-offer {
+    font-size: 12px !important;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    width: 20%;
+    margin: 30%;
 }
 
+.get-now{
+    color: black;
+    margin-left: 40px;
+}
 
 /* Navber Css start */
 
@@ -54,13 +51,30 @@ button.navbar-toggler:active{
     margin-left: 12%;
 }
 
-ul li {
+ul  li  {
     margin-right: 10px;
+    display: block;
+}
+
+ul.navbar-nav li:hover{
+    background-color: #f8f8
 }
 
 .icon{
     font-size: 20px;
     color: #BFBFC1;
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+
+.content-wrap{
+    width: 96%;
+    height: 500px;
+    background-color: bisque;
+    margin: 0px auto;   
 }
 
 
