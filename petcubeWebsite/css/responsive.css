@@ -60,14 +60,26 @@
         
     }
 
-
    
     .article1,.article2{
-        width: 200px;
-        margin: 150px auto;
-        margin-left: 50px;
-        
+        width: 300px;
+        margin: 300px 0 0 0;
     }
+
+    .video-desktop{
+        display: none;
+    }
+
+    .mission{
+        flex-direction: column-reverse;
+    }
+
+    h1.h1{
+        margin-top: 30px;
+        width: 240px;
+        font-size: 24px;
+    }
+
 
 }
 
@@ -92,6 +104,11 @@
         margin-left: 30px;
     }
 
-    
+
+    .video-mobile{
+        display: none;
+    }
+
+
    
 }
