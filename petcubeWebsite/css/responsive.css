@@ -1,114 +1,100 @@
 /* Desktop Viwe */
-@media (max-width: 640px){
+
+@media (max-width: 640px) {
     .desktop-view {
-    display: none !important;
+        display: none !important;
     }
-   
-    .logo-img-box{
+    .logo-img-box {
         display: none
     }
-
-    .header-sign-in{
+    .header-sign-in {
         display: none;
         margin-right: 25px;
     }
-
-    .navbar-nav{
+    .navbar-nav {
         margin: 0px !important;
     }
-
     .logo-img {
-        margin-right: 60px  !important;
+        margin-right: 60px !important;
     }
-
-    ul.navbar-nav li{
+    ul.navbar-nav li {
         border-bottom: 1px solid rgb(203, 238, 238);
     }
-
-    .row .inner-wraper-container{
+    .row .inner-wraper-container {
         margin-bottom: 10px !important;
         display: flex !important;
         flex-direction: column-reverse;
         height: 100%;
-    } 
-    
-    
-
-    .article{
+    }
+    .article {
         width: 300px !important;
         font-weight: 600;
         margin-top: 50px;
         float: left;
-        margin-left: -10px; 
+        margin-left: -10px;
     }
-    
-    
-    .article > h1 {
+    .article>h1 {
         color: #F1F1F1 !important;
         font-size: 30px;
     }
-    
-    .text{
+    .text {
         font-size: 24px !important;
         color: #F1F1F1;
     }
-    
-    p.h8{
+    p.h8 {
         font-size: 26px !important;
         font-weight: 600;
-        color: 000; 
-        
+        color: 000;
     }
-
-   
-    .article1,.article2{
+    .article1, .article2 {
         width: 300px;
         margin: 300px 0 0 0;
     }
-
-    .video-desktop{
+    .video-desktop {
         display: none;
     }
-
-    .mission{
+    .mission {
         flex-direction: column-reverse;
     }
-
-    h1.h1{
+    h1.h1 {
         margin-top: 30px;
         width: 240px;
         font-size: 24px;
     }
-
-
+    .row.Petcube-card-row.pet-parent {
+        background: url('../images/pet-prant-imge-m.png') no-repeat;
+        height: 500px;
+        margin: 60px auto;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .parent-text {
+        margin-top: 20px;
+    }
+    .first-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
-
-
 /* Mobile Viwe */
-@media (min-width: 640px){
-    .mobile-view {
-    display: none !important;
-    }
 
- .logo-img{
+@media (min-width: 640px) {
+    .mobile-view {
+        display: none !important;
+    }
+    .logo-img {
         display: none;
         margin-right: 200px;
     }
-
-    .auth-link{
+    .auth-link {
         display: none !important;
     }
- 
     img.logo-img-box {
         margin-left: 30px;
     }
-
-
-    .video-mobile{
+    .video-mobile {
         display: none;
     }
-
-
-   
 }
